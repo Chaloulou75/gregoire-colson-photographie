@@ -40,7 +40,7 @@ useSeoMeta({
 
       <!-- Form -->
       <UiAnimatedSection>
-        <ContactContactForm />
+        <ContactForm />
       </UiAnimatedSection>
     </div>
   </div>
