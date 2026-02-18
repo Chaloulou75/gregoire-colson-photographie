@@ -9,7 +9,7 @@ defineProps<{
 
 <template>
   <div class="flex min-h-screen flex-col items-center justify-center bg-stone-950 px-6 text-center font-sans">
-    <h1 class="font-serif text-8xl font-light text-stone-700">
+    <h1 class="text-8xl font-bold text-stone-700">
       {{ error.statusCode }}
     </h1>
     <p class="mt-4 text-lg text-stone-400">
