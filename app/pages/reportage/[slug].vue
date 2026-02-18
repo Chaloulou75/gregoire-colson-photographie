@@ -48,18 +48,18 @@ function openLightbox(index: number) {
     </header>
 
     <!-- Gallery -->
-    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="columns-1 gap-4 sm:columns-2 lg:columns-3">
       <button
         v-for="(img, index) in project.images"
         :key="index"
-        class="group overflow-hidden rounded-lg"
+        class="group mb-4 block w-full overflow-hidden rounded-lg break-inside-avoid"
         @click="openLightbox(index)"
       >
         <img
           :src="img"
           :alt="`${project.title} — Photo ${index + 1}`"
           loading="lazy"
-          class="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          class="w-full transition-transform duration-500 group-hover:scale-105"
         />
       </button>
     </div>
