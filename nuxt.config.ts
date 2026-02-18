@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     compatibilityDate: "2025-07-15",
     devtools: { enabled: true },
 
-    modules: ["@nuxt/fonts", "@nuxt/image", "@nuxtjs/seo"],
+    modules: ["@nuxt/fonts", "@nuxtjs/seo"],
 
     site: {
         url: "https://gregoirecolson.com",
@@ -25,11 +25,6 @@ export default defineNuxtConfig({
 
     routeRules: {
         "/**": { prerender: true },
-    },
-
-    image: {
-        quality: 80,
-        format: ["webp", "avif"],
     },
 
     fonts: {

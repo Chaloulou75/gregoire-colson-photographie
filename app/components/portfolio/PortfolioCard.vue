@@ -14,7 +14,7 @@ const projectUrl = computed(() => {
 
 <template>
   <NuxtLink :to="projectUrl" class="group relative block overflow-hidden rounded-lg">
-    <NuxtImg :src="project.coverImage" :alt="project.title" sizes="100vw sm:50vw lg:33vw" loading="lazy"
+    <img :src="project.coverImage" :alt="project.title" loading="lazy"
       class="w-full object-cover transition-transform duration-500 group-hover:scale-105" />
     <div
       class="absolute inset-0 flex flex-col justify-end bg-linear-to-t from-stone-950/80 via-transparent to-transparent p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
