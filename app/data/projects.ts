@@ -21,9 +21,9 @@ const LR = "https://lightroom.adobe.com/v2c/spaces";
 export const projects: Project[] = [
     {
         id: 1,
-        title: "Piano",
-        slug: "piano",
-        description: "Reportage autour du piano, entre gestes et mélodies.",
+        title: "Nebout & Hamm",
+        slug: "nebout-hamm",
+        description: "",
         category: "Reportage",
         date: "2025-01-15",
         coverImage: `${LR}/09a2dca3b67b4c2391b9d50c390ac453/assets/4ba2ff81c76f41f78f7381ca3f5e6fa3/revisions/8fce39f4abd14c72b6a2d7f34aa62790/renditions/7ddc300be942b16b3abce3006c1c2e8e`,
@@ -43,8 +43,7 @@ export const projects: Project[] = [
         id: 2,
         title: "30&40",
         slug: "30-40",
-        description:
-            "Reportage photographique capturant l'énergie et l'émotion.",
+        description: "",
         category: "Reportage",
         date: "2025-01-10",
         coverImage: `${LR}/077562f98b2e421dadb5f513289df753/assets/ed63ebfd637f444db2354d5377d01a27/revisions/30b097d77857445a8b1f2d470e49bdff/renditions/eab1df587d110c756586eb94f064e821`,
@@ -64,7 +63,7 @@ export const projects: Project[] = [
         id: 3,
         title: "2025 Street",
         slug: "2025-street",
-        description: "Scènes de rue, instants volés au quotidien.",
+        description: "",
         category: "Street Photo",
         date: "2025-01-05",
         coverImage: `${LR}/d515c3e5fa91430685ad84117ed22f81/assets/c7d7deca0cdb45d7b95c00bf78821a9a/revisions/0158853d8e0547a4a0957e4323f30619/renditions/5b76648f0d2860b7ed61b373cef57f0c`,
